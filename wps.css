@@ -1,0 +1,325 @@
+body{
+   padding: 0;
+   margin: 0;
+    height: 2600px;
+    background-image: linear-gradient(rgb(207, 210, 251), white);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    /* background-color: purple;  */
+}
+#sec{
+
+}
+header{
+     background-color: white;
+    width: 100%;
+    height: 8vh;
+    /* position: fixed; */
+    z-index: 2;
+}
+#sele{
+    border: none;
+    background-color: white;
+}
+#wps{
+    transform: translate(-120vh,1vh);
+}
+#world{
+    transform: translate(10vh, 2vh);
+}
+.btn{
+    color: white;
+    background-color: black;
+    width: 10%;
+    border-radius: 6%;
+    height: 7vh;
+    font-size: 15pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translate(20vh);
+}
+.btn:hover{
+    transform: translate(20vh, -1.5vh);
+}
+#anchor{
+    color: white;
+    text-decoration: none;
+}
+#topics{
+    list-style-type: none;
+    display: flex;
+    float: left;
+    margin-top: 3vh;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+#nav1{
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+    list-style-type: none;
+    display: flex;
+    /* margin-left: 20px; */
+}
+#nav:hover{
+    color: rgb(185, 179, 179);
+}
+#nav2{
+    color: black;
+    text-decoration: none;
+    margin-left: 55px;
+    list-style-type: none;
+    display: flex;
+    /* margin-left: 20px; */
+}
+#nav:hover{
+    color: rgb(185, 179, 179);
+}
+#nav3{
+    color: black;
+    text-decoration: none;
+    margin-left: 60px;
+    list-style-type: none;
+    display: flex;
+    /* margin-left: 20px; */
+}
+#nav:hover{
+    color: rgb(185, 179, 179);
+}
+#nav4{
+    color: black;
+    text-decoration: none;
+    margin-left: 65px;
+    list-style-type: none;
+    display: flex;
+    /* margin-left: 20px; */
+}
+#nav:hover{
+    color: rgb(185, 179, 179);
+}
+#nav5{
+    color: black;
+    text-decoration: none;
+    margin-left: 70px;
+    list-style-type: none;
+    display: flex;
+    /* margin-left: 20px; */
+}
+#nav:hover{
+    color: rgb(185, 179, 179);
+}
+h2{
+    /* background-color: white; */
+    font-size: 20pt;
+    font-family: sans-serif;
+    text-align: center;
+    transform: translate(0,-3vh);
+    font-family: sans-serif;
+}
+#para{
+    text-align: center;
+    font-size: 13pt;
+    line-height: 0.8;
+}
+#boook{
+    transform: translate(52vh, 10vh);
+}
+#boook1{
+    transform: translate(-120vh, 10vh);
+}
+#group{
+    transform: translate(0, -15vh);
+}
+#btn{
+    color: white;
+    background-color: rgb(43, 40, 40);
+    width: 20%;
+    height: 10vh;
+    transform: translate(60vh, -5vh);
+    border-radius: 10%;
+    color: white;
+    font-size: 19pt;
+    text-decoration: none;
+}
+#btn:hover{
+    background-color: black;
+    transform: translate(60vh,-8vh);
+}
+#pa{
+    transform: translate(190vh, -8vh);
+    color: black;
+}
+.word{
+    transform: translate(30vh,-2vh);
+}
+.word:hover{
+    background-color: black;
+    transform: translate(60vh,-10vh);
+}
+#anc{
+    transform: translate(-3vh);
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+}
+.anc{
+    transform: translate(90vh, -2vh);
+    color: white;
+}
+h1{
+    transform: translate(95vh, -3vh);
+    font-family: sans-serif;
+}
+#parag{
+    text-align: center;
+    transform: translate(10vh, 3vh);
+    font-size: 12pt;
+}
+#img{
+    transform: translate(100vh, -1vh);
+}
+#pr{
+    transform: translate(94vh, -5vh);
+    font-size: 12pt;
+}
+#section{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(-10vh);
+}
+#container{
+    background-color: white;
+    color: white;
+    width: 20%;
+    height: 60vh;
+    border-radius: 4%;
+    transform: translate(10vh);
+}
+#image{
+    transform: translate(5vh);
+}
+#paraga{
+    color: black;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+#head{
+    color: black;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(5VH);
+}
+#butn{
+    width: 80%;
+    height: 7vh;
+    background-color: rgb(48, 43, 43);
+    color: white;
+    font-size: 15pt;
+    font-family: sans-serif;
+    border-radius: 12%;
+    border: none;
+    transform: translate(5vh, -2vh);
+}
+#butn:hover{
+    background-color: black;
+    transform: translate(5vh,-4vh);
+}
+#sel{
+    border: none;
+    background-color: rgb(75, 70, 70);
+}
+#mob{
+    height: 8vh;
+    width: 2.3%;
+    transform:translate(100vh, 1vh);
+}
+#parag{
+    transform: translate(0, -2vh);
+    color: black;
+    font-size: 10pt;
+    font-family: cursive;
+}
+#idd{
+    transform: translate(-10vh);
+    height: 5vh;
+}
+#get{
+    color: white;
+    font-size: 10pt;
+    transform: translate(0, -8vh);
+}
+h5{
+    color: white;
+    transform: translate(-1vh, -12.5vh);
+}
+#wwp{
+    color: black;
+    transform: translate(100vh,-15vh);
+}
+footer{
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+}
+#divv{
+    display: flex;
+    justify-content: space-between;
+}
+#ull{
+    list-style-type: none;
+}
+#inside{
+    background-color: rgb(207, 210, 251);
+    height: 5vh;
+    width: 40%;
+    transform: translate(0,40vh);
+    font-size: 15pt;
+    font-family: serif;
+}
+#ins{
+    transform: translate(0, 1vh);
+    width: 25%;
+}
+#li{
+    font-size: 10pt;
+    color: rgb(92, 91, 91);
+    transform: translate(0,42vh);
+}
+#listt{
+    line-height: 1.5;
+    color: rgb(92, 91, 91);
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+#lis{
+    font-size: 10pt;
+    font-family: arial;
+}
+#list{
+    color: rgb(92, 91, 91);
+    font-size: 11pt;
+    line-height: 2;
+    font-family: sans-serif;
+}
+#heade{
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    transform: translate(0,40vh);
+    border-top: thin solid black;
+    background-attachment: fixed;
+    
+     /* position: fixed;  */
+}
+#part{
+    transform: translate(40vh,0);
+}
+#di{
+    background-color: black;
+    color: white;
+    width: 5%;
+    height: 5vh;
+    border-radius: 10%;
+    text-align: center;
+    transform: translate(145vh, -7vh);
+}
