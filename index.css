@@ -22,7 +22,7 @@ header{
     background-color: white;
 }
 #wps{
-    transform: translate(-120vh,1vh);
+    transform: translate(-110vh,1vh);
 }
 #world{
     transform: translate(10vh, 2vh);
@@ -35,7 +35,7 @@ header{
     height: 7vh;
     font-size: 15pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transform: translate(20vh);
+    transform: translate(20vh, -1vh);
 }
 .btn:hover{
     transform: translate(20vh, -1.5vh);
@@ -145,7 +145,7 @@ h2{
     transform: translate(60vh,-8vh);
 }
 #pa{
-    transform: translate(190vh, -8vh);
+    transform: translate(185vh, -8vh);
     color: black;
 }
 .word{
@@ -156,7 +156,7 @@ h2{
     transform: translate(60vh,-10vh);
 }
 #anc{
-    transform: translate(-3vh);
+    transform: translate(-1vh);
     color: white;
     font-size: 15pt;
     text-decoration: none;
@@ -190,7 +190,7 @@ h1{
     background-color: white;
     color: white;
     width: 20%;
-    height: 60vh;
+    height: 50vh;
     border-radius: 4%;
     transform: translate(10vh);
 }
